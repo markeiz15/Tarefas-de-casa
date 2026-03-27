@@ -1,0 +1,5 @@
+{
+  "name": "Gerenciador de Tarefas Domésticas",
+  "description": "Um aplicativo para gerenciar tarefas domésticas, atribuir usuários e acompanhar a conclusão. As tarefas podem ser divididas por dias da semana e configuradas como únicas ou recorrentes.",
+  "requestFramePermissions": []
+}
