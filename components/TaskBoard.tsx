@@ -37,8 +37,8 @@ const TaskBoard: React.FC<TaskBoardProps> = ({
 
   return (
     <>
-      {/* Desktop View: Horizontal Scroll */}
-      <div className="hidden sm:flex overflow-x-auto space-x-4 p-4 -mx-4">
+      {/* Desktop View: Responsive Grid */}
+      <div className="hidden sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4">
         {days.map(day => (
           <TaskColumn
             key={day}

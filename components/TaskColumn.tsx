@@ -29,7 +29,7 @@ const TaskColumn: React.FC<TaskColumnProps> = ({
   const visibleTasks = hasManagePower ? tasks : tasks.filter(task => task.assignedUserIds.includes(currentUser.id));
 
   return (
-    <div className="w-full sm:w-80 sm:flex-shrink-0 bg-light-bg dark:bg-gray-800 rounded-lg sm:shadow-sm sm:p-3">
+    <div className="w-full bg-light-bg dark:bg-gray-800 rounded-lg sm:shadow-sm sm:p-3">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold text-gray-800 dark:text-gray-200">{day}</h2>
         {hasManagePower && (
